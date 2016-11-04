@@ -41,8 +41,8 @@ class BaiController extends Controller
     }
 
     public function actionInsert(){
-        $res = \Yii::$app->request;
         $db = \Yii::$app->db;
+        $res = \Yii::$app->request;
         $name =  $res->post('name');
         $content = $res->post('content');
         $id = $db->createCommand()
