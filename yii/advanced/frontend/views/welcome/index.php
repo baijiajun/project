@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 <?php
 use yii\bootstrap\ActiveForm;
 ?>
+=======
+>>>>>>> baijiajun
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -37,6 +40,7 @@ use yii\bootstrap\ActiveForm;
 			<li>
 				<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}"> <a href="#" class="icon lock"></a>
 			</li>
+<<<<<<< HEAD
 			<li>
 				<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}"> 
 			</li>
@@ -51,6 +55,8 @@ use yii\bootstrap\ActiveForm;
 <?php 
 ActiveForm::end(); 
 ?></li>
+=======
+>>>>>>> baijiajun
 			<div class="clear"> </div>
 			<div class="submit">
 				<input type="submit" onclick="myFunction()" value="登录" >

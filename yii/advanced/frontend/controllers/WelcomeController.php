@@ -13,7 +13,11 @@ use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
 use app\models\ValidateCode;
+<<<<<<< HEAD
 use app\models\AdminLogin;
+=======
+
+>>>>>>> baijiajun
 
 /**
  * Welcome controller
@@ -23,6 +27,7 @@ class WelcomeController extends Controller
     public $enableCsrfValidation = false;
 
     public function actionIndex(){
+<<<<<<< HEAD
         $AdminLogin = new AdminLogin();//这里要把刚才写的类new下，注意你们要引入文件路径额
         $this->layout= false;
         return $this->render('index',array('AdminLogin'=>$AdminLogin));
@@ -82,6 +87,10 @@ class WelcomeController extends Controller
                                         //'controller'=>'login',        //拥有这个动作的controller
                                 ],
             ];
+=======
+        $this->layout= false;
+        return $this->render('index');
+>>>>>>> baijiajun
     }
 
     public function actionShow(){
