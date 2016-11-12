@@ -1,0 +1,76 @@
+@import "reset.css";
+@import "fullcalendar.css";
+@import "datatable.css";
+@import "ui_custom.css";
+@import "prettyPhoto.css";
+@import "elfinder.css";
+
+
+/* Table of Content
+==================================================
+	# Basic styles
+	# Top navigation
+	# Left navigation & widgets
+	# Common styles
+	# Content
+	# Statistic row
+	# Gallery
+	# Buttons
+	# Content widgets
+	# Progress bars	
+	# Tables 
+    # Pagination
+	# Form styles	
+	# Footer
+	# Other plugin styles
+	# Media queries (remove them if you don't want to use responsive layout)
+==================================================*/
+
+
+
+/* #Basic Styles
+================================================== */
+
+/* Wrappers */
+
+html { height: 100%; background: transparent url(../images/backgrounds/bg.jpg); }
+.html { height: 100%;  }
+body { min-height: 100%; font-size: 12px; color: #595959; font-family: Arial, Helvetica, sans-serif; line-height: 20px; position: relative; }
+body { background: url(../images/backgrounds/bodyBg.png) repeat-y 0 0; }
+.wrapper { position: relative; margin: 0 3%; }
+.contentWrapper { position: relative; margin: 0 3%; float: right; width: 94%; }
+.chart, .bars, .updating, .pie { height: 250px; z-index: 90; max-width: 100%; }
+.chartWrapper { overflow: hidden; }
+
+/* Text */
+
+
+
+/* Content
+================================================== */
+
+
+/* === Title area with middle navigation === */
+
+
+
+/* Statistic row
+================================================== */
+
+/* ===== Statistics ===== */
+
+.statsRow { background: url(../images/backgrounds/titleRowBg.png); }
+
+
+/* ===== Control buttons ===== */
+
+.controlB { text-align: center; padding: 11px 0 22px 0; }
+.controlB ul li { display: inline-block; margin: 11px 5px 0 5px; background: url(../images/backgrounds/controlB.png) repeat-x; border: 1px solid #d5d5d5; text-align: center; box-shadow: inset 0 0 0 1px #fff; -webkit-box-shadow: inset 0 0 0 1px #fff; -moz-box-shadow: inset 0 0 0 1px #fff; }
+.controlB ul li:hover { background-position: 0 -72px; }
+.controlB ul li:active { background-position: 0 -144px; }
+.controlB ul li a { padding: 10px 20px 4px 20px; display: block; font-weight: bold; white-space: nowrap; color: #626262; }
+.controlB ul li a span { display: block; margin-top: 5px; }
+
+
+
+}
